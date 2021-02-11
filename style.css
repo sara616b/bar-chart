@@ -1,0 +1,30 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(67, 73, 92);
+}
+
+#chart {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 33px;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 2vw;
+  height: auto;
+  margin: 2px;
+}
+
+.green {
+  background-color: rgb(43, 145, 43);
+}
+
+.red {
+  background-color: rgb(204, 63, 63);
+}
+
+.yellow {
+  background-color: rgb(238, 209, 80);
+}
